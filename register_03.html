@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+    <!-- 上述3个meta标签*必须*放在最前面，任何其他内容都*必须*跟随其后！ -->
+    <title>注册</title>
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/public.css" rel="stylesheet">
+    <link href="css/login.css" rel="stylesheet">
+    <style>
+      .login_file{
+        position: absolute;
+        width: 90%;
+        top: 0;
+        left: 5%;
+        z-index: 1;
+      }
+      .file_hide{
+        width: 90%;
+        height: 6rem;
+        position: absolute;
+        top: 0;
+        left:5%;
+        z-index: 2;
+        opacity: 0;
+      }
+      .file_hide input{
+        width: 100%;
+        height: 6rem;
+      }
+      .login_user{
+        width: 100%;
+        height: 10rem;
+      }
+    </style>
+  </head>
+  <body class="bg_gray">
+    <header class="bg_red">
+      <div class="header_nav">
+        <div class="back"><a href="javascript:history.go(-1);"><img src="img/back_01.png"></a></div>
+        <div class="header_title" style="left:45%">注册</div>
+      </div>
+    </header>
+    <div class="login_main">
+      <div class="login_user fn_14 RT">
+      <div class = "login_file">
+          <P><input type= "text" name="" placeholder="请上传证件" class="login_user_num" id = "file_img">
+             <span class="bg_red login_user_btn">选择文件</span></p>
+          <p class="mt_1 fn_10 w8"><span class="red">提示：</span>必须上传医疗机构执业许可证，才能通过审核。</p>
+      </div>    
+      <div class="file_hide">
+          <input type = "file" id = "upfile">
+      </div>
+    </div>
+    <div class="mt_1">
+          <p class="fn_14 red">示例</p>
+          <p class="mt_1"><img src="img/register-3_03.png" width="80%" height="80%"></p>
+    </div>
+    <div class="login_btn mt_2">
+         <span class="bg_red"><a href="register_04.html" class="white login_btn_01">下一步</a></span>
+    </div>
+    </div>
+    <script type="text/javascript" src = "js/jquery.min.js"></script>
+    <script>
+      var file = $('#upfile');
+      file.bind('change',function(){
+        var val = file.val();
+        $('#file_img').val(val);
+      })
+    </script>
+  </body>
+  </html>

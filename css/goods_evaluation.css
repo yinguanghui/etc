@@ -1,0 +1,130 @@
+.goods_evaluation_esc{
+    display: none;
+    position: absolute;
+    top:0.3rem;
+    right: 5%;
+}
+.goods_evaluation_nav{
+	height: 4rem;
+	line-height: 4rem;
+}
+.goods_evaluation_nav ul{
+	display: -webkit-box;
+    width: 100%;
+}
+.goods_evaluation_nav ul li:nth-child(1){
+	border-right: 1px #eee solid;
+}
+.goods_evaluation_nav ul li{
+	-webkit-box-flex: 1;
+    width: 100%;
+    text-align: center;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-box-pack: center;
+    -webkit-box-align: center;
+}
+.goods_evaluation_space{
+    width: 100%;
+    height: 0.5rem;
+}
+.goods_evaluation_ul{
+    padding: 1rem 0;
+    display: none;
+}
+.goods_evaluation_ul li{
+    width: 100%;
+    padding: 1rem;
+    display: inline-block;
+    border-bottom: 1px #eee solid;
+    position: relative;
+}
+.goods_evaluation_img img{
+    width: 5.5rem;
+    height: 5.5rem;
+}
+.goods_evaluation_text{
+    width: 65%;
+    margin-left: 3%;
+}
+.goods_evaluation_discuss{
+    margin-top: 0.5rem;
+    padding: 0.5rem;
+}
+.start_good{
+    width:12px;
+    height:12px;
+    display: inline-block;
+    background-image:url(../img/goods/starts.png);
+    background-size: cover;
+    background-position: 0 0;
+}
+.start_bad{
+    width:12px;
+    height:12px;
+    display: inline-block;
+    background-image:url(../img/goods/starts.png);
+    background-size: cover;
+    background-position: -29px 0;
+}
+.evaluation_discuss{
+    padding: 0.5rem 0;
+}
+.discuss_time{
+    position: absolute;
+    top: 0.2rem;
+    right: 5%;
+}
+.goods_evaluation_btn{
+    position: absolute;
+    bottom: 1rem;
+    right: 5%;
+    padding: 0.3rem 0.5rem;
+    text-align: center;
+    display: inline-block;
+    border: 1px #eee solid;
+    border-radius: 0.5rem;
+}
+.bd_red{
+    border:1px #c81e1e solid!important;
+}
+.evaluation_popup{
+    width: 100%;
+    height: auto;
+    position: fixed;
+    z-index: 101;
+    left: 0;
+    top:30%;
+    padding:0 5%;
+}
+.goods_evaluation_img2 img{
+    width: 7rem;
+    height: 7rem;
+}
+.evaluation_popup_start{
+    padding: 1rem 0;
+}
+.evaluation_popup_text{
+    padding: 0.5rem 0;
+}
+.evaluation_popup_text p textarea{
+    width: 100%;
+    height: 5rem;
+    border: none;
+}
+.evaluation_popup_btn{
+    width: 80%;
+    height: 3rem;
+    line-height: 3rem;
+    margin: 2rem auto;
+    text-align: center;
+    border-radius: 0.5rem;
+}
+.dark{
+    width: 100%;
+    background: #fff;
+    position: fixed;
+    z-index: 100;
+    top: 0;
+    left: 0;
+}

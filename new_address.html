@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+    <!-- 上述3个meta标签*必须*放在最前面，任何其他内容都*必须*跟随其后！ -->
+    <title>新建收货地址</title>
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/public.css" rel="stylesheet">
+    <link href="css/address.css" rel="stylesheet">
+  </head>
+  <body class="bg_gray">
+    <header class="bg_red">
+      <div class="header_nav">
+        <div class="back"><a href="javascript:history.go(-1);"><img src="img/back_01.png"></a></div>
+        <div class="header_title" style="left:36%">新建收货地址</div>
+      </div>
+    </header>
+    <footer>
+          <div class="address_footer tc fn_16 bg_gray"><a href="#">保存并使用</a></div>
+    </footer>
+    <div class="pdt_5 pdb_5">
+      <div class="new_address bg_white">
+           <div class="new_address_form">
+              <p>收货人：<input type="text"></p>
+              <p>联系方式：<input type="text"></p>
+              <p><span>所在地区：</span><span data-toggle="distpicker" class="distpicker">
+                  <select data-province="湖南省"></select>
+                  <select data-city="长沙市"></select>
+                  <select data-district="岳麓区"></select>
+                </span>
+            </p>
+              <p>详细地址：<input type="text"></p>
+           </div>
+      </div>
+    </div>
+    <script src="js/jquery.min.js"></script>
+    <script src="js/distpicker.data.js"></script>
+    <script src="js/distpicker.js"></script>
+  </body>
+  </html>

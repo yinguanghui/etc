@@ -1,0 +1,243 @@
+.invoice_btn{
+	width: 100%;
+	height: 4.4rem;
+	line-height: 4.4rem;
+	text-align: center;
+}
+.invoice_btn_a{
+	width: 80%;
+	height: 3rem;
+	line-height: 3rem;
+	text-align: center;
+	background: #c81e1e;
+	display: inline-block;
+	margin-top: 0.7rem;
+	border-radius: 0.5rem;
+}
+.invoice_information_know{
+    position: absolute;
+    top:0.3rem;
+    right: 5%;
+}
+.invoice_type{
+	height: 8rem;
+}
+.invoice_type_title{
+	height: 4rem;
+	line-height: 4rem;
+	width: 100%;
+	text-indent: 5%;
+}
+.invoice_type_nav{
+	height: 4rem;
+}
+.invoice_type_nav span{
+	padding: 0.3rem 0.5rem;
+	border: 1px #eee solid;
+}
+.invoice_type_nav span:nth-of-type(1){
+	float: left;
+	margin-left: 5%;
+}
+.invoice_type_nav span:nth-of-type(2){
+	float: right;
+	margin-right: 5%;
+}
+.bd_red{
+	border: 1px #c81e1e solid!important;
+}
+.invoice_header{
+	height: 12rem;
+}
+.invoice_header_radio{
+	height: 2rem;
+	line-height: 2rem;
+	margin-left: 5%;
+}
+.invoice_address{
+	width: 92%;
+	margin-left: 3%;
+	height: 4rem;
+	line-height: 4rem;
+	background: #eee;
+}
+.invoice_address_input{
+	height: 4rem;
+	line-height: 4rem;
+	border: none;
+	width: 100%;
+	background: #eee;
+	text-indent: 1em;
+}
+.invoice_text{
+	height: 15rem;
+}
+.invoice_text_radio{
+	margin-top: 1rem;
+	padding: 0 5%;
+}
+.invoice_text_radio span{
+	margin-top: 0.5rem;
+	display: inline-block;
+}
+.invoice_header_2{
+	padding-bottom: 1rem;
+}
+.invoice_header_2 p{
+	display: inline-block;
+	width: 100%;
+	padding: 0.5rem 0;
+}
+.invoice_header_2 p span{
+	display: inline-block;
+}
+.invoice_header_2 p span:nth-of-type(1){
+	width: 30%;
+	text-align: right;
+	float: left;
+}
+.invoice_header_2 p span:nth-of-type(2){
+	width: 70%;
+	text-align: left;
+	float: left;
+}
+.invoice_header_2 input{
+	width: 100%;
+	border: none;
+}
+.invoice_distpicker select{
+	width: 60%;
+	height: 2rem;
+	margin-top: 0.5rem;
+}
+.application_title{
+	height: 4rem;
+}
+.application_title p{
+	position: absolute;
+	bottom: 0;
+	left: 5%;
+	border-bottom: 3px #c81e1e solid;
+	height: 4rem;
+	line-height: 4rem;
+}
+.application_step{
+	height: 6rem;
+	margin-top: 0.5rem;
+}
+.application_step ul{
+	display: -webkit-box;
+    width: 100%;
+    height: 4rem;
+}
+.application_step ul li{
+	-webkit-box-flex: 1;
+    width: 100%;
+    text-align: center;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-box-pack: center;
+    -webkit-box-align: center;
+}
+.application_step_img img{
+	width: 90%;
+	margin-left: 5%;
+}
+.application_step_message{
+	margin-top: 1rem;
+}
+.application_step_message li{
+	width: 100%;
+	padding: 1rem 5%;
+	border-bottom: 1px #ddd solid;
+	overflow: hidden;
+}
+.application_step_message li input{
+	width: 60%;
+	margin-left: 5%;
+	border: none;
+}
+.application_pass{
+	height: 4rem;
+	line-height: 4rem;
+	background: #f67f79;
+}
+.application_pass_icon{
+	margin-left: 5%;
+	margin-right: 0.5rem;
+}
+.application_success_message{
+    width: 100%;
+    height: 30px;
+    line-height: 30px;
+    display: -webkit-box;
+    overflow: hidden;
+    text-align: left;
+    -webkit-line-clamp: 1;
+    -webkit-box-orient: vertical;
+    word-break: break-all;
+}
+.application_success_message span{
+	margin-right: 1rem;
+}
+.application_success_btn{
+	float: left;
+	width: 35%;
+	height: 3rem;
+	line-height: 3rem;
+	border-radius: 0.5rem;
+	text-align: center;
+	margin-top: 0.7rem;
+}
+.application_success_change{
+	border: 1px #000 solid;
+	margin-left: 10%;
+}
+.application_success_del{
+	margin-left: 10%;
+}
+.application_step_2_img{
+	display: inline-block;
+	width: 100%;
+	padding: 1rem 0;
+}
+.application_step_2_img_up p{
+	padding: 0.5rem 5%;
+}
+.application_step_up{
+	width: 94%;
+	margin-left: 3%;
+	border: 1px #ddd dashed;
+	text-align: center;
+	height: 10rem;
+}
+.application_up1{
+	position: absolute;
+	width: 100%;
+	height: 10rem;
+	z-index: 10;
+	opacity: 0;
+}
+.application_step_up img{
+	width:8rem;
+	height: auto;
+	margin-top: 2rem;
+}
+.application_step_3{
+	width: 96%;
+	margin-left: 2%;
+	padding: 1rem 0;
+}
+.application_step_3 img{
+	width: 7rem;
+	height: 7rem;
+}
+.application_step_3 p{
+	padding: 0.3rem 0;
+}
+.gn{
+	color: #4eae5d;
+}
+.up_img_name input{
+	border: none;
+}

@@ -1,0 +1,82 @@
+.login_main{
+	padding: 4rem 0;
+	text-align: center;
+}
+.login_logo{
+	margin-top: 3rem;
+}
+.login_logo img{
+	width: 15.5rem;
+	height: 5.6rem;
+	background-size: cover;
+}
+.login_user{
+	margin-top: 3rem;
+}
+.login_user_name{
+	border: 1px #c9c9c9 solid;
+	width: 80%;
+	height: 3rem;
+	border-radius: 0.5rem;
+	margin-top: 2rem;
+	text-indent: 1rem;
+}
+.login_user_num{
+	width: 50%;
+	height: 3rem;
+	border-radius: 0.5rem;
+	margin-top: 2rem;
+	text-indent: 1rem;
+	border: 1px #c9c9c9 solid;
+}
+.login_user_btn{
+	width: 30%;
+	height: 3rem;
+	line-height: 3rem;
+	color: #fff;
+	border-radius: 0.5rem;
+	display: inline-block;
+	text-indent: center;
+}
+.login_btn{
+	position: relative;
+	margin-top: 2rem;
+	height: 7rem;
+}
+.login_btn span{
+	width: 80%;
+	height: 3rem;
+	line-height: 3rem;
+	border-radius: 0.5rem;
+	color: #fff;
+	font-size: 1.8rem;
+	display:inline-block;
+	text-align: center;
+}
+.login_btn_01{
+	width: 100%;
+	height: 3rem;
+	line-height: 3rem;
+	display: inline-block;
+}
+.login_btn a{
+	display:inline-block;
+	color: #bbb;
+}
+.login_btn_a1{
+	position: absolute;
+	bottom: 5%;
+	left: 20%;
+}
+.login_btn_a2{
+	position: absolute;
+	bottom: 5%;
+	right: 20%;
+}
+.login_message{
+	margin-left: -18%;
+}
+.w8{
+	width: 80%;
+	margin-left: 10%;
+}

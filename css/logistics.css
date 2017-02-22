@@ -1,0 +1,84 @@
+.logistics_company{
+	display: inline-block;
+	width: 100%;
+	border-bottom: 1px #cecece solid;
+}
+.logistics_company div{
+	padding: 1rem 0;
+}
+.logistics_company div:nth-child(1){
+	margin-left: 3%;
+}
+.logistics_company div:nth-child(2){
+	margin-right: 3%;
+}
+.logistics_address{
+	margin-top: 1rem;
+	padding: 1rem 0;
+	border-bottom: 1px #cecece solid;
+	border-top: 1px #cecece solid;
+}
+.logistics_address p{
+	padding: 0.5rem 0;
+}
+.logistics_address p:nth-of-type(1){
+	margin-left: 10%;
+}
+.logistics_address p:nth-of-type(2){
+	margin-left: 3%;
+}
+.address{
+	width: 0.8rem;
+	height: 0.9rem;
+}
+.logistics_track{
+	margin-top: 1rem;
+	width: 100%;
+	display: inline-block;
+	border-bottom: 1px #cecece solid;
+	border-top: 1px #cecece solid;
+}
+.logistics_track h4{
+	width: 94%;
+	padding: 0.5rem 0;
+	margin-left: 3%;
+	border-bottom: 1px #eee solid;
+}
+.logistics_track_left_1{
+	position: absolute;
+	background: url(../img/logistics_03_01.png) no-repeat;
+	background-size: cover;
+	width:18px;
+	height: 46px;
+	top: 24px;
+}
+.logistics_track_left_2{
+	position: absolute;
+	background: url(../img/logistics_03_03.png) no-repeat;
+	width:18px;
+	height: 70px;
+	top: 0;
+	left: 0;
+}
+/*.logistics_track_left img{
+	width: 0.9rem;
+	height: 30.2rem;
+}*/
+.logistics_track_right{
+	float: left;
+	margin-left: 3%;
+	width: 94%;
+}
+.logistics_track_right ul{
+	padding-bottom: 2rem;
+}
+.logistics_track_right li{
+	position: relative;
+	padding: 0.3rem 0;
+	width: 100%;
+	height: 70px;
+}
+.logistics_track_right li p{
+	padding: 0.5rem 0;
+	margin-left: 10%;
+}

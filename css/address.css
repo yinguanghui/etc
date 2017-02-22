@@ -1,0 +1,84 @@
+.address_footer{
+	width: 100%;
+	height: 4.4rem;
+	line-height: 4.4rem;
+}
+.address_footer a{
+	width: 90%;
+	height: 3rem;
+	line-height: 3rem;
+	display: inline-block;
+	background: #c81e1e;
+	border-radius: 0.5rem;
+	color: white;
+}
+.address_user{
+	padding: 0.5rem 0;
+	margin-bottom: 0.5rem;
+	border-bottom: 1px #c9c9c9 solid;
+	border-top: 1px #c9c9c9 solid;
+}
+.address_user_name{
+	width: 94%;
+	margin-left: 3%;
+	padding: 0.5rem;
+}
+.address_user_name p{
+	padding: 0.3rem 0;
+}
+.address_user_btn{
+	display: inline-block;
+	border-top: 1px #eee solid;
+	width: 90%;
+	margin-left: 3%;
+	padding: 1rem;
+}
+.address_user_btn2 img{
+	width: 1.4rem;
+	height: 1.4rem;
+}
+.address_user_btn2 span{
+	margin-left: 0.5rem;
+}
+.address_user_btn3{
+	margin-left: 2rem;
+}
+.address_user_btn3 img{
+	width: 1.2rem;
+	height: 1.5rem;
+}
+.address_user_btn3 span{
+	margin-left: 0.5rem;
+}
+.new_address_form{
+	border-bottom: 1px #c9c9c9 solid;
+}
+.new_address_form p{
+	width: 96%;
+	padding: 1rem 0 1rem 1rem;
+	border-bottom: 1px #eee solid;
+	margin-left: 2%;
+}
+.new_address_form input{
+	border: none;
+	width: 70%;
+	height: 2rem;
+	line-height: 2rem;
+}
+.new_address_form p:nth-of-type(1){
+	text-indent: 1rem;
+}
+.new_address_form p:nth-of-type(3){
+	text-align: left;
+}
+.distpicker{
+	width: 80%;
+}
+.distpicker select{
+	width: 7rem;
+	height: 2.5rem;
+	line-height: 2.5rem;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}

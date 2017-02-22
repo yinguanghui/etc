@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+    <!-- 上述3个meta标签*必须*放在最前面，任何其他内容都*必须*跟随其后！ -->
+    <title>发票信息</title>
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/public.css" rel="stylesheet">
+    <link href="css/invoice_information.css" rel="stylesheet">
+  </head>
+  <body class="bg_gray">
+    <header class="bg_red">
+      <div class="header_nav">
+        <div class="back"><a href="javascript:history.go(-1);"><img src="img/back_01.png"></a></div>
+        <div class="header_title" style="left:40%">发票信息</div>
+        <!-- <div class="invoice_information_know"><a href="javascript:void(0)" class="white fn_14">发票须知</a></div> -->
+      </div>
+    </header>
+    <footer>
+      <div class="invoice_btn"><a href = "order_settlement.html" class="invoice_btn_a fn_16 white">确定</a></div>
+    </footer>
+    <div class="pdb_5 pdt_5">
+      <div class="invoice_type bb bg_white">
+        <p class="invoice_type_title fn_18">发票类型</p>
+        <p class="invoice_type_nav fn_14"><span class="bd_red red">纸质发票</span><span><a href="invoice_information_2.html">增值税发票</a></span></p>
+      </div>
+      <div class="invoice_header bb bt bg_white mt_1">
+        <p class="invoice_type_title fn_18">发票抬头</p>
+        <p class="invoice_header_radio fn_16"><span><i class="glyphicon glyphicon-check red"></i>&nbsp;&nbsp;个人</span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span><i class="glyphicon glyphicon-unchecked"></i>&nbsp;&nbsp;单位</span></p>
+        <p class="invoice_address mt_1"><input type ="text" placeholder="" value="湖南省医电园网络科技有限公司" class="invoice_address_input fn_14"></p>
+      </div>
+      <div class="invoice_text bt bb bg_white mt_1">
+        <p class="invoice_type_title fn_18 bb">发票内容</p>
+        <p class="invoice_text_radio fn_16">
+          <span><i class="glyphicon glyphicon-check red"></i>&nbsp;&nbsp;明细</span></br>
+          <span><i class="glyphicon glyphicon-unchecked"></i>&nbsp;&nbsp;医疗耗材</span></br>
+          <span><i class="glyphicon glyphicon-unchecked"></i>&nbsp;&nbsp;医疗设备</span></br>
+          <span><i class="glyphicon glyphicon-unchecked"></i>&nbsp;&nbsp;医疗器械</span></br>
+        </p>
+      </div>
+    </div>
+    <div id="returnTop"><img src="img/index/scroll-to-top-icon.png"></div>
+    <script src="js/jquery.min.js"></script>
+    <script src = "js/public.js"></script>
+</body>
+</html>

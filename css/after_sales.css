@@ -1,0 +1,236 @@
+.after_sales_nav{
+	height: 5rem;
+	line-height: 5rem;
+}
+.after_sales_nav ul{
+	display: -webkit-box;
+    width: 100%;
+}
+.after_sales_nav ul li{
+	-webkit-box-flex: 1;
+    width: 100%;
+    text-align: center;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-box-pack: center;
+    -webkit-box-align: center;
+}
+.after_sales_message{
+	width: 100%;
+	padding: 0.5rem;
+}
+.after_sales_message{
+	text-align: left;
+}
+.after_sales_message ul{
+	width: 100%;
+	display: inline-block;
+}
+.after_sales_message li{
+	display: inline-block;
+	height: 40px;
+	line-height: 40px;
+}
+.after_sales_message_left{
+	margin-left: 5%;
+}
+.after_sales_message_right{
+	margin-right: 5%;
+}
+.after_sales_goods{
+	margin-top: 0.5rem;
+}
+.after_sales_goods ul li{
+	width: 100%;
+	display: inline-block;
+	padding: 0.5rem 0;
+}
+.after_sales_goods_input{
+	width: 10%;
+	margin-top: 4rem;
+	text-align: right;
+}
+.after_sales_goods_img{
+	padding: 0.5rem 0;
+	width: 30%;
+}
+.after_sales_goods_img img{
+	width: 92%;
+	height: auto;
+	margin: 0 auto;
+}
+.after_sales_goods_text{
+	width: 60%;
+	padding: 0.2rem 0;
+}
+.reduce{
+	padding: 0 0.5rem;
+	height: 2rem;
+	line-height: 2rem;
+	border: 1px #eee solid;
+	display: inline-block;
+	font-size: 1.4rem;
+	text-align: center;
+}
+.add{
+	padding: 0 0.5rem;
+	height: 2rem;
+	line-height: 2rem;
+	border: 1px #eee solid;
+	display: inline-block;
+	font-size: 1.4rem;
+	text-align: center;
+}
+.shopping_goods_num{
+	padding: 0 0.5rem;
+	height: 2rem;
+	line-height: 2rem;
+	border: 1px #eee solid;
+	display: inline-block;
+	font-size: 1.4rem;
+	text-align: center;
+}
+.after_sales_goods_text_title{
+	display: -webkit-box;
+    overflow: hidden;
+    text-align: left;
+    height: 20px;
+    line-height: 20px;
+    color: #333;
+    -webkit-line-clamp: 1;
+    -webkit-box-orient: vertical;
+    word-break:break-all;
+}
+.after_sales_up{
+	margin-top: 0.5rem;
+}
+.after_sales_up p{
+	padding: 0.5rem 0;
+	margin-left: 5%;
+	display: inline-block;
+	width: 100%;
+}
+.after_sales_up p span{
+	display: inline-block;
+	margin-right: 0.5rem;
+}
+.after_sales_question{
+	width: 65%;
+	height: 8rem;
+}
+.after_sales_question_img{
+	width: 8rem;
+	height: auto;
+}
+#after_sales_goods_img_up{
+	position: absolute;
+	width: 8rem;
+	height: 6rem;
+	opacity: 0;	
+	left:0;
+	top: 0;
+}
+.after_sales_btn{
+	height: 10rem;
+	line-height: 10rem;
+}
+.after_sales_btn a{
+	width: 60%;
+	height: 4rem;
+	line-height: 4rem;
+	display: inline-block;
+	border-radius: 0.5rem; 
+}
+/*提交申请*/
+.submit_applications_success{
+	margin-top: 3rem;
+	padding: 1rem 0;
+}
+.submit_applications_success img{
+	width: 25%;
+	height: auto;
+}
+.submit_applications_text{
+	width: 90%;
+	margin: 0 auto;
+}
+.submit_applications_text p{
+	padding: 0.5rem 0;
+}
+.submit_applications_back{
+	margin-top: 2rem;
+	display: inline-block;
+	width: 100%;
+}
+.submit_applications_back a{
+	width: 40%;
+	height: 3rem;
+	line-height: 3rem;
+	text-align: center;
+}
+/*审核失败*/
+.submit_applications_defeat{
+	margin-top: 3rem;
+	padding: 1rem 0;
+}
+.submit_applications_defeat img{
+	width: 20%;
+	height: auto;
+}
+.why_defeat span{
+	padding: 0.3rem 1rem;
+	display: inline-block;
+}
+/*审核成功*/
+.consignees_address{
+	padding: 1rem 0;
+}
+.consignees_address p{
+	padding: 0.3rem 0;
+	width: 90%;
+	margin: 0 auto;
+}
+.Consignor_message{
+	padding: 1rem 0;
+	margin-top: 0.5rem;
+}
+.Consignor_message p{
+	width: 90%;
+	margin: 0 auto;
+	padding: 0.5rem 0;
+}
+.Consignor_message p span{
+	width: 6rem;
+	text-align: right;
+	display: inline-block;
+}
+.Consignor_message_select{
+	width: 30%;
+}
+.Consignor_message_input1{
+	width: 38%;
+	margin-left: 0.5rem;
+}
+.after_sales_finally_goods{
+	width: 100%;
+	display: inline-block;
+	margin-top: 0.5rem;
+}
+.after_sales_finally_text{
+	padding:0.5rem 0;
+	margin-top: 0.5rem;
+	width: 100%;
+	display: inline-block;
+}
+.after_sales_finally_text p{
+	padding: 0.2rem 5%;
+}
+.after_sales_finally_textarea{
+	width: 100%;
+	margin: 0 auto;
+}
+.after_sales_finally_img img{
+	width: 25%;
+	height: auto;
+	margin-left: 10%;
+}

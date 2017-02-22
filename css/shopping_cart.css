@@ -1,0 +1,149 @@
+.shopping_cart_list{
+	margin-top: 0.5rem;
+}
+.shopping_cart_list ul li{
+	width: 100%;
+	display: inline-block;
+	border-bottom: 1px #eee solid;
+	padding-top: 1rem;
+	padding-bottom: 1rem;
+	position: relative;
+}
+.shopping_cart_i{
+	width: 1.2rem;
+	height: 1.2rem;
+	float: left;
+	margin-left: 5%;
+	margin-top: 3rem;
+}
+.shopping_cart_goods{
+	float: left;
+	margin-left: 2%;
+}
+.shopping_cart_goods img{
+	width: 7.5rem;
+	height: 7.5rem;
+}
+.shopping_cart_text{
+	float: left;
+	width: 58%;
+	font-size: 11px;
+}
+.shopping_cart_text p{
+	padding: 0.2rem 0;
+}
+.shopping_goods_name{
+	display: -webkit-box;
+    overflow: hidden;
+    text-align: left;
+    height: 20px;
+    line-height: 20px;
+    -webkit-line-clamp: 1;
+    -webkit-box-orient: vertical;
+    word-break: break-all;
+}
+.shopping_goods_unit span{
+	border: 1px #eee solid;
+	margin-left: 0.5rem;
+	padding: 0.2rem;
+}
+.border_red{
+	border: 1px #c81e1e solid!important;
+}
+.shopping_cart_money2{
+	position: absolute;
+	right: 8%;
+	bottom: 30%;
+}
+.shopping_cart_money3{
+	/*position: absolute;
+	right: 5%;
+	bottom: 6%;*/
+}
+.shopping_cart_collection{
+	position: absolute;
+	right: 5%;
+	bottom: 1rem;
+}
+.shopping_cart_collection a{
+	width: 3.5rem;
+	height: 2rem;
+	line-height: 2rem;
+	text-align: center;
+	display: inline-block;
+	border: 1px #eee solid;
+	border-radius: 0.5rem;
+	margin-left: 0.5rem;
+}
+.reduce{
+	padding: 0 0.5rem;
+	height: 2rem;
+	line-height: 2rem;
+	border: 1px #eee solid;
+	display: inline-block;
+	font-size: 1.4rem;
+	text-align: center;
+}
+.add{
+	padding: 0 0.5rem;
+	height: 2rem;
+	line-height: 2rem;
+	border: 1px #eee solid;
+	display: inline-block;
+	font-size: 1.4rem;
+	text-align: center;
+}
+.shopping_goods_num{
+	padding: 0 0.5rem;
+	height: 2rem;
+	line-height: 2rem;
+	border: 1px #eee solid;
+	display: inline-block;
+	font-size: 1.4rem;
+	text-align: center;
+}
+.shopping_cart_total{
+	float: left;
+}
+.shopping_cart_total_1{
+	margin-top: 1rem;
+	margin-left: 3%;
+}
+.shopping_cart_total_2{
+	width: 100%;
+	height: 4.4rem;
+	line-height: 4.4rem;
+}
+.shopping_cart_btn{
+	width: 40%;
+	height: 4.4rem;
+	line-height: 4.4rem;
+	display: inline-block;
+	float: right;
+}
+.shoppingcart_gray{
+	color: #6f6f6f;
+}
+.edit_1{
+	display: none;
+}
+.clear_history{
+	width: 100%;
+	height: 4.4rem;
+	line-height: 4.4rem;
+}
+#empty{
+	width: 80%;
+	height: 3rem;
+	line-height: 3rem;
+	display: inline-block;
+	border-radius: 0.5rem;
+	margin-top: 0.7rem;
+}
+.delete_history{
+	display: inline-block;
+	border-radius: 0.5rem;
+	bottom: 0.5rem;
+	right: 10%;
+	padding: 0.2rem 0.5rem;
+}

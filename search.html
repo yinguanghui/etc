@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+    <!-- 上述3个meta标签*必须*放在最前面，任何其他内容都*必须*跟随其后！ -->
+    <title>搜索</title>
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/public.css" rel="stylesheet">
+    <link href="css/search.css" rel="stylesheet">
+    <link href="css/dialog.css" rel="stylesheet">
+</head>
+<body class="bg_white">
+	 <footer>
+          <ul class="footer_nav">
+              <li><a href="index.html"><i class="icon_home"></i><p>主页</p></a></li>
+              <li><a href="classify.html"><i class="icon_classify"></i><p>分类</p></a></li>
+              <li><a href="shopping_cart.html"><i class="icon_car"></i></a><p>购物车</p></li>
+              <li><a href="user.html"><i class="icon_user"></i><p>我的</p></a></li>
+          </ul> 
+  	</footer>
+  	<div class="pdb_5">
+  	<div class="search_for tc RT">
+  		<p class="bg_gray"><input type="text" placeholder="请输入搜索关键词" class="search_input_1 fn_14"><i><img src="img/search_03.png"></i></p>
+  		<a href="#" class="AB fn_14 gray">取消</a>
+  	</div>
+  	<div class="hot_search fn_14">
+  		<ul>
+  			<li class="fn_16"><b>热搜</b></li>
+  			<li>输液器</li>
+  			<li>一次性手套</li>
+  			<li>输液器</li>
+  			<li>一次性手套</li>
+  			<li>输液器</li>
+  			<li>一次性手套</li>
+  		</ul>
+  	</div>
+  	<div class="search_spacing"></div>
+  	<div class="history_search">
+      <p class="black fn_16 bb_1"><b>历史搜索</b></p>
+  		<ul class= "gray fn_14">
+  			<li>输液器</li>
+  			<li>一次性手套</li>
+  			<li>输液器</li>
+  			<li>一次性手套</li>
+  			<li>输液器</li>
+  			<li>一次性手套</li>
+  		</ul>
+  	</div>
+  	<div class="search_btn tc mt_2 pdb_5"><button class="bg_white fn_16 gray">清空搜索历史</button></div>
+  </div>
+<script src="js/jquery.min.js"></script>
+<script type="text/javascript" src="js/dialog.js"> </script>
+<script type="text/javascript">
+    $('.search_btn button').click(function(){
+      $.dialog({
+      type : 'confirm',
+      onClickOk : function(){
+        $('.history_search ul li').remove();
+      },
+      contentHtml : '<p>您确定要清空搜索记录吗？</p>'
+    });
+    });
+</script>
+</body>
+</html>
